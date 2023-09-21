@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView300"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textColor="#464646"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/buttonbg"
+            android:fontFamily="@font/pretendard_medium"
+            android:gravity="center"
+            android:text="일시정지"
+            android:textColor="#ffffff"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/buttonbg"
+            android:fontFamily="@font/pretendard_medium"
+            android:gravity="center"
+            android:text="종료하기"
+            android:textColor="#ffffff"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+</LinearLayout>
